@@ -12,9 +12,9 @@ def print_items(inventory):
     print("Total number of items: " + str(items_total))
 
 inv = {'gold coin': 42, 'rope': 1}
-print(inv)
+print(inv) #Test
 dragon_loot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
-print(dragon_loot)
+print(dragon_loot) #Test
 inv = add_to_inventory(inv, dragon_loot)
-print(inv)
+print(inv) #Test
 print_items(inv)
