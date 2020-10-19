@@ -1,7 +1,7 @@
 def add_to_inventory(inventory, added_items):
     for item in added_items:
         inventory[item] = inventory.get(item, 0) + 1
-        return inventory
+    return inventory
 
 def print_items(inventory):
     print("Inventory:")
@@ -12,9 +12,6 @@ def print_items(inventory):
     print("Total number of items: " + str(items_total))
 
 inv = {'gold coin': 42, 'rope': 1}
-print(inv) #Test
 dragon_loot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
-print(dragon_loot) #Test
 inv = add_to_inventory(inv, dragon_loot)
-print(inv) #Test
 print_items(inv)
