@@ -1,3 +1,5 @@
+#! python3
+
 import re
 
 def check_password():
